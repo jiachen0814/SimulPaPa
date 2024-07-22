@@ -399,6 +399,8 @@ class Brain:
             # "event_examples":label_list_to_str(self._schedule_prompts["event_examples"])
         }, config={"callbacks": [CustomHandler(verbose=CONFIG["debug"])]})
         response = results['text'].replace("24:00", "23:59")
+        print("jiachen:")
+        print(response)
         return schedule_parser.parse(response)
           
             
