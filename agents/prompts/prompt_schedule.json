@@ -1,6 +1,7 @@
 {
     "prefix" : "INTERVENTION PLAN:\n{intervention}\n\nPersonal Description:\n{description}\nHome location: {home_addr}\nWork location: {work_addr}\n\nDaily Purpose:{daily_purpose}\n\nNow you need pretend you are {name}, and needs to schedule events for today, start from {start_date} {start_time}. ",
     "event_examples" : ["Sleep", "Work", "Shower", "Bath", "Meeting", "Study", "Breakfast", "Dinner", "Shower", "Commute", "Cinema Movie", "Office chat"],
+    "schedule_example_prompt" : "INTERVENTION PLAN:\n{intervention}\nProfile:\n{description}\nHere is the schedule for this individual, from {start_time} until bedtime:\n\nSchedule:{schedule}",
     "schedule_examples_backup" : [
         {
             "intervention" : "No intervention plan.",
